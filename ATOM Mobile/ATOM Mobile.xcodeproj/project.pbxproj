@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E05D01E1B2F151C008744EF /* approvals-default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D00E1B2F151C008744EF /* approvals-default.png */; };
+		8E05D01F1B2F151C008744EF /* approvals-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D00F1B2F151C008744EF /* approvals-highlight.png */; };
+		8E05D0201B2F151C008744EF /* attendance.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0101B2F151C008744EF /* attendance.png */; };
+		8E05D0211B2F151C008744EF /* generate-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0111B2F151C008744EF /* generate-btn.png */; };
+		8E05D0221B2F151C008744EF /* global-filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0121B2F151C008744EF /* global-filter.png */; };
+		8E05D0231B2F151C008744EF /* go-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0131B2F151C008744EF /* go-btn.png */; };
+		8E05D0241B2F151C008744EF /* issue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0141B2F151C008744EF /* issue.png */; };
+		8E05D0251B2F151C008744EF /* issues-default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0151B2F151C008744EF /* issues-default.png */; };
+		8E05D0261B2F151C008744EF /* issues-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0161B2F151C008744EF /* issues-highlight.png */; };
+		8E05D0271B2F151C008744EF /* leave.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0171B2F151C008744EF /* leave.png */; };
+		8E05D0281B2F151C008744EF /* management-dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0181B2F151C008744EF /* management-dashboard.png */; };
+		8E05D0291B2F151C008744EF /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0191B2F151C008744EF /* menu.png */; };
+		8E05D02A1B2F151C008744EF /* news-default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D01A1B2F151C008744EF /* news-default.png */; };
+		8E05D02B1B2F151C008744EF /* news-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D01B1B2F151C008744EF /* news-highlight.png */; };
+		8E05D02C1B2F151C008744EF /* reminder-default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D01C1B2F151C008744EF /* reminder-default.png */; };
+		8E05D02D1B2F151C008744EF /* reminder-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D01D1B2F151C008744EF /* reminder-highlight.png */; };
+		8E05D0311B300E52008744EF /* IssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D0301B300E52008744EF /* IssueViewController.m */; };
+		8E05D0371B300E7D008744EF /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D0361B300E7D008744EF /* ReminderViewController.m */; };
+		8E05D03A1B300E8D008744EF /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D0391B300E8D008744EF /* NewsViewController.m */; };
+		8E05D03C1B30224B008744EF /* atom-mobile-signin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D03B1B30224B008744EF /* atom-mobile-signin.jpg */; };
+		8E05D03E1B302570008744EF /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D03D1B302570008744EF /* profile.png */; };
+		8E05D0411B30289D008744EF /* ManagementDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D0401B30289D008744EF /* ManagementDashboardViewController.m */; };
+		8E05D0441B302BF7008744EF /* AttendanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D0431B302BF7008744EF /* AttendanceViewController.m */; };
+		8E05D0471B302C3A008744EF /* LeaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D0461B302C3A008744EF /* LeaveViewController.m */; };
+		8E05D0491B302E72008744EF /* atom-mobile-forgotpassword.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0481B302E72008744EF /* atom-mobile-forgotpassword.jpg */; };
+		8E05D04E1B303F9F008744EF /* dashboard_page1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D04B1B303F9F008744EF /* dashboard_page1.png */; };
+		8E05D04F1B303F9F008744EF /* dashboard_page2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D04C1B303F9F008744EF /* dashboard_page2.png */; };
+		8E05D0501B303F9F008744EF /* dashboard_page3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D04D1B303F9F008744EF /* dashboard_page3.png */; };
+		8E05D0541B304F69008744EF /* attendance_page1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0521B304F69008744EF /* attendance_page1.png */; };
+		8E05D0551B304F69008744EF /* attendance_page2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0531B304F69008744EF /* attendance_page2.png */; };
+		8E05D0591B3051F0008744EF /* leave_page1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0571B3051F0008744EF /* leave_page1.png */; };
+		8E05D05A1B3051F0008744EF /* leave_page2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0581B3051F0008744EF /* leave_page2.png */; };
+		8E05D05D1B3174C7008744EF /* ApprovalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D05C1B3174C7008744EF /* ApprovalViewController.m */; };
+		8E05D0AB1B32A9AE008744EF /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D0AA1B32A9AE008744EF /* ProfileViewController.m */; };
+		8E05D0B11B33F566008744EF /* home-default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0AF1B33F566008744EF /* home-default.png */; };
+		8E05D0B21B33F566008744EF /* home-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E05D0B01B33F566008744EF /* home-highlight.png */; };
+		8E05D0B51B33F583008744EF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D0B41B33F583008744EF /* HomeViewController.m */; };
+		8E05D0B81B3410B5008744EF /* ShiftDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D0B71B3410B5008744EF /* ShiftDetailsViewController.m */; };
+		8E05D0BB1B34158D008744EF /* ShiftSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D0BA1B34158D008744EF /* ShiftSummaryViewController.m */; };
+		8E05D0BE1B346457008744EF /* TeamLeaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D0BD1B346457008744EF /* TeamLeaveViewController.m */; };
+		8E6996471B18715D00BD5A73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6996461B18715D00BD5A73 /* main.m */; };
+		8E69964A1B18715D00BD5A73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6996491B18715D00BD5A73 /* AppDelegate.m */; };
+		8E69964D1B18715D00BD5A73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E69964C1B18715D00BD5A73 /* ViewController.m */; };
+		8E6996501B18715D00BD5A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E69964E1B18715D00BD5A73 /* Main.storyboard */; };
+		8E6996521B18715D00BD5A73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6996511B18715D00BD5A73 /* Images.xcassets */; };
+		8E6996551B18715D00BD5A73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6996531B18715D00BD5A73 /* LaunchScreen.xib */; };
+		8E6996611B18715D00BD5A73 /* ATOM_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6996601B18715D00BD5A73 /* ATOM_MobileTests.m */; };
+		D6B8BA251B39472A00E9B28F /* ChartAttendcanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B8BA201B39472A00E9B28F /* ChartAttendcanceViewController.m */; };
+		D6B8BA261B39472A00E9B28F /* ChartMacInProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B8BA221B39472A00E9B28F /* ChartMacInProgressViewController.m */; };
+		D6B8BA271B39472A00E9B28F /* PieLeaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B8BA241B39472A00E9B28F /* PieLeaveViewController.m */; };
+		D6B8BA291B39475300E9B28F /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B8BA281B39475300E9B28F /* TelerikUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E69965B1B18715D00BD5A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E6996391B18715D00BD5A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6996401B18715D00BD5A73;
+			remoteInfo = "ATOM Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E05D00E1B2F151C008744EF /* approvals-default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "approvals-default.png"; sourceTree = "<group>"; };
+		8E05D00F1B2F151C008744EF /* approvals-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "approvals-highlight.png"; sourceTree = "<group>"; };
+		8E05D0101B2F151C008744EF /* attendance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attendance.png; sourceTree = "<group>"; };
+		8E05D0111B2F151C008744EF /* generate-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "generate-btn.png"; sourceTree = "<group>"; };
+		8E05D0121B2F151C008744EF /* global-filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "global-filter.png"; sourceTree = "<group>"; };
+		8E05D0131B2F151C008744EF /* go-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-btn.png"; sourceTree = "<group>"; };
+		8E05D0141B2F151C008744EF /* issue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = issue.png; sourceTree = "<group>"; };
+		8E05D0151B2F151C008744EF /* issues-default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "issues-default.png"; sourceTree = "<group>"; };
+		8E05D0161B2F151C008744EF /* issues-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "issues-highlight.png"; sourceTree = "<group>"; };
+		8E05D0171B2F151C008744EF /* leave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leave.png; sourceTree = "<group>"; };
+		8E05D0181B2F151C008744EF /* management-dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "management-dashboard.png"; sourceTree = "<group>"; };
+		8E05D0191B2F151C008744EF /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		8E05D01A1B2F151C008744EF /* news-default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news-default.png"; sourceTree = "<group>"; };
+		8E05D01B1B2F151C008744EF /* news-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news-highlight.png"; sourceTree = "<group>"; };
+		8E05D01C1B2F151C008744EF /* reminder-default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reminder-default.png"; sourceTree = "<group>"; };
+		8E05D01D1B2F151C008744EF /* reminder-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reminder-highlight.png"; sourceTree = "<group>"; };
+		8E05D02F1B300E52008744EF /* IssueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueViewController.h; sourceTree = "<group>"; };
+		8E05D0301B300E52008744EF /* IssueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueViewController.m; sourceTree = "<group>"; };
+		8E05D0351B300E7D008744EF /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		8E05D0361B300E7D008744EF /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
+		8E05D0381B300E8D008744EF /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		8E05D0391B300E8D008744EF /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		8E05D03B1B30224B008744EF /* atom-mobile-signin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "atom-mobile-signin.jpg"; sourceTree = "<group>"; };
+		8E05D03D1B302570008744EF /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		8E05D03F1B30289D008744EF /* ManagementDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagementDashboardViewController.h; sourceTree = "<group>"; };
+		8E05D0401B30289D008744EF /* ManagementDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagementDashboardViewController.m; sourceTree = "<group>"; };
+		8E05D0421B302BF7008744EF /* AttendanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceViewController.h; sourceTree = "<group>"; };
+		8E05D0431B302BF7008744EF /* AttendanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceViewController.m; sourceTree = "<group>"; };
+		8E05D0451B302C3A008744EF /* LeaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaveViewController.h; sourceTree = "<group>"; };
+		8E05D0461B302C3A008744EF /* LeaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaveViewController.m; sourceTree = "<group>"; };
+		8E05D0481B302E72008744EF /* atom-mobile-forgotpassword.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "atom-mobile-forgotpassword.jpg"; sourceTree = "<group>"; };
+		8E05D04B1B303F9F008744EF /* dashboard_page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashboard_page1.png; sourceTree = "<group>"; };
+		8E05D04C1B303F9F008744EF /* dashboard_page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashboard_page2.png; sourceTree = "<group>"; };
+		8E05D04D1B303F9F008744EF /* dashboard_page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashboard_page3.png; sourceTree = "<group>"; };
+		8E05D0521B304F69008744EF /* attendance_page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attendance_page1.png; sourceTree = "<group>"; };
+		8E05D0531B304F69008744EF /* attendance_page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attendance_page2.png; sourceTree = "<group>"; };
+		8E05D0571B3051F0008744EF /* leave_page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leave_page1.png; sourceTree = "<group>"; };
+		8E05D0581B3051F0008744EF /* leave_page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leave_page2.png; sourceTree = "<group>"; };
+		8E05D05B1B3174C7008744EF /* ApprovalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApprovalViewController.h; sourceTree = "<group>"; };
+		8E05D05C1B3174C7008744EF /* ApprovalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApprovalViewController.m; sourceTree = "<group>"; };
+		8E05D0A91B32A9AE008744EF /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		8E05D0AA1B32A9AE008744EF /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		8E05D0AF1B33F566008744EF /* home-default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-default.png"; sourceTree = "<group>"; };
+		8E05D0B01B33F566008744EF /* home-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-highlight.png"; sourceTree = "<group>"; };
+		8E05D0B31B33F583008744EF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8E05D0B41B33F583008744EF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8E05D0B61B3410B5008744EF /* ShiftDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiftDetailsViewController.h; sourceTree = "<group>"; };
+		8E05D0B71B3410B5008744EF /* ShiftDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShiftDetailsViewController.m; sourceTree = "<group>"; };
+		8E05D0B91B34158D008744EF /* ShiftSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiftSummaryViewController.h; sourceTree = "<group>"; };
+		8E05D0BA1B34158D008744EF /* ShiftSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShiftSummaryViewController.m; sourceTree = "<group>"; };
+		8E05D0BC1B346457008744EF /* TeamLeaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamLeaveViewController.h; sourceTree = "<group>"; };
+		8E05D0BD1B346457008744EF /* TeamLeaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamLeaveViewController.m; sourceTree = "<group>"; };
+		8E6996411B18715D00BD5A73 /* ATOM Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATOM Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6996451B18715D00BD5A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6996461B18715D00BD5A73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E6996481B18715D00BD5A73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E6996491B18715D00BD5A73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E69964B1B18715D00BD5A73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E69964C1B18715D00BD5A73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E69964F1B18715D00BD5A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E6996511B18715D00BD5A73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E6996541B18715D00BD5A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8E69965A1B18715D00BD5A73 /* ATOM MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATOM MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E69965F1B18715D00BD5A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6996601B18715D00BD5A73 /* ATOM_MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATOM_MobileTests.m; sourceTree = "<group>"; };
+		D6B8BA1F1B39472A00E9B28F /* ChartAttendcanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartAttendcanceViewController.h; sourceTree = "<group>"; };
+		D6B8BA201B39472A00E9B28F /* ChartAttendcanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartAttendcanceViewController.m; sourceTree = "<group>"; };
+		D6B8BA211B39472A00E9B28F /* ChartMacInProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartMacInProgressViewController.h; sourceTree = "<group>"; };
+		D6B8BA221B39472A00E9B28F /* ChartMacInProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartMacInProgressViewController.m; sourceTree = "<group>"; };
+		D6B8BA231B39472A00E9B28F /* PieLeaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieLeaveViewController.h; sourceTree = "<group>"; };
+		D6B8BA241B39472A00E9B28F /* PieLeaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieLeaveViewController.m; sourceTree = "<group>"; };
+		D6B8BA281B39475300E9B28F /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TelerikUI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E69963E1B18715D00BD5A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B8BA291B39475300E9B28F /* TelerikUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6996571B18715D00BD5A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E05D00D1B2F14F8008744EF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8E05D0AF1B33F566008744EF /* home-default.png */,
+				8E05D0B01B33F566008744EF /* home-highlight.png */,
+				8E05D0561B3051D7008744EF /* Leave Images */,
+				8E05D0511B304F51008744EF /* Attendance Images */,
+				8E05D04A1B303F89008744EF /* Dashboard Images */,
+				8E05D0481B302E72008744EF /* atom-mobile-forgotpassword.jpg */,
+				8E05D03D1B302570008744EF /* profile.png */,
+				8E05D03B1B30224B008744EF /* atom-mobile-signin.jpg */,
+				8E05D00E1B2F151C008744EF /* approvals-default.png */,
+				8E05D00F1B2F151C008744EF /* approvals-highlight.png */,
+				8E05D0101B2F151C008744EF /* attendance.png */,
+				8E05D0111B2F151C008744EF /* generate-btn.png */,
+				8E05D0121B2F151C008744EF /* global-filter.png */,
+				8E05D0131B2F151C008744EF /* go-btn.png */,
+				8E05D0141B2F151C008744EF /* issue.png */,
+				8E05D0151B2F151C008744EF /* issues-default.png */,
+				8E05D0161B2F151C008744EF /* issues-highlight.png */,
+				8E05D0171B2F151C008744EF /* leave.png */,
+				8E05D0181B2F151C008744EF /* management-dashboard.png */,
+				8E05D0191B2F151C008744EF /* menu.png */,
+				8E05D01A1B2F151C008744EF /* news-default.png */,
+				8E05D01B1B2F151C008744EF /* news-highlight.png */,
+				8E05D01C1B2F151C008744EF /* reminder-default.png */,
+				8E05D01D1B2F151C008744EF /* reminder-highlight.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8E05D02E1B300CD8008744EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E05D02F1B300E52008744EF /* IssueViewController.h */,
+				8E05D0301B300E52008744EF /* IssueViewController.m */,
+				8E05D0351B300E7D008744EF /* ReminderViewController.h */,
+				8E05D0361B300E7D008744EF /* ReminderViewController.m */,
+				8E05D0381B300E8D008744EF /* NewsViewController.h */,
+				8E05D0391B300E8D008744EF /* NewsViewController.m */,
+				8E05D03F1B30289D008744EF /* ManagementDashboardViewController.h */,
+				8E05D0401B30289D008744EF /* ManagementDashboardViewController.m */,
+				8E05D0421B302BF7008744EF /* AttendanceViewController.h */,
+				8E05D0431B302BF7008744EF /* AttendanceViewController.m */,
+				8E05D0451B302C3A008744EF /* LeaveViewController.h */,
+				8E05D0461B302C3A008744EF /* LeaveViewController.m */,
+				8E05D05B1B3174C7008744EF /* ApprovalViewController.h */,
+				8E05D05C1B3174C7008744EF /* ApprovalViewController.m */,
+				8E05D0A91B32A9AE008744EF /* ProfileViewController.h */,
+				8E05D0AA1B32A9AE008744EF /* ProfileViewController.m */,
+				8E05D0B31B33F583008744EF /* HomeViewController.h */,
+				8E05D0B41B33F583008744EF /* HomeViewController.m */,
+				8E05D0B61B3410B5008744EF /* ShiftDetailsViewController.h */,
+				8E05D0B71B3410B5008744EF /* ShiftDetailsViewController.m */,
+				8E05D0B91B34158D008744EF /* ShiftSummaryViewController.h */,
+				8E05D0BA1B34158D008744EF /* ShiftSummaryViewController.m */,
+				8E05D0BC1B346457008744EF /* TeamLeaveViewController.h */,
+				8E05D0BD1B346457008744EF /* TeamLeaveViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E05D04A1B303F89008744EF /* Dashboard Images */ = {
+			isa = PBXGroup;
+			children = (
+				8E05D04B1B303F9F008744EF /* dashboard_page1.png */,
+				8E05D04C1B303F9F008744EF /* dashboard_page2.png */,
+				8E05D04D1B303F9F008744EF /* dashboard_page3.png */,
+			);
+			name = "Dashboard Images";
+			sourceTree = "<group>";
+		};
+		8E05D0511B304F51008744EF /* Attendance Images */ = {
+			isa = PBXGroup;
+			children = (
+				8E05D0521B304F69008744EF /* attendance_page1.png */,
+				8E05D0531B304F69008744EF /* attendance_page2.png */,
+			);
+			name = "Attendance Images";
+			sourceTree = "<group>";
+		};
+		8E05D0561B3051D7008744EF /* Leave Images */ = {
+			isa = PBXGroup;
+			children = (
+				8E05D0571B3051F0008744EF /* leave_page1.png */,
+				8E05D0581B3051F0008744EF /* leave_page2.png */,
+			);
+			name = "Leave Images";
+			sourceTree = "<group>";
+		};
+		8E6996381B18715D00BD5A73 = {
+			isa = PBXGroup;
+			children = (
+				8E6996431B18715D00BD5A73 /* ATOM Mobile */,
+				8E69965D1B18715D00BD5A73 /* ATOM MobileTests */,
+				8E6996421B18715D00BD5A73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E6996421B18715D00BD5A73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E6996411B18715D00BD5A73 /* ATOM Mobile.app */,
+				8E69965A1B18715D00BD5A73 /* ATOM MobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E6996431B18715D00BD5A73 /* ATOM Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				D6B8BA1E1B39470E00E9B28F /* Charts */,
+				8E05D02E1B300CD8008744EF /* Controllers */,
+				8E05D00D1B2F14F8008744EF /* Images */,
+				8E6996481B18715D00BD5A73 /* AppDelegate.h */,
+				8E6996491B18715D00BD5A73 /* AppDelegate.m */,
+				8E69964B1B18715D00BD5A73 /* ViewController.h */,
+				8E69964C1B18715D00BD5A73 /* ViewController.m */,
+				8E69964E1B18715D00BD5A73 /* Main.storyboard */,
+				8E6996511B18715D00BD5A73 /* Images.xcassets */,
+				8E6996531B18715D00BD5A73 /* LaunchScreen.xib */,
+				8E6996441B18715D00BD5A73 /* Supporting Files */,
+			);
+			path = "ATOM Mobile";
+			sourceTree = "<group>";
+		};
+		8E6996441B18715D00BD5A73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E6996451B18715D00BD5A73 /* Info.plist */,
+				8E6996461B18715D00BD5A73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E69965D1B18715D00BD5A73 /* ATOM MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E6996601B18715D00BD5A73 /* ATOM_MobileTests.m */,
+				8E69965E1B18715D00BD5A73 /* Supporting Files */,
+			);
+			path = "ATOM MobileTests";
+			sourceTree = "<group>";
+		};
+		8E69965E1B18715D00BD5A73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E69965F1B18715D00BD5A73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6B8BA1E1B39470E00E9B28F /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				D6B8BA281B39475300E9B28F /* TelerikUI.framework */,
+				D6B8BA1F1B39472A00E9B28F /* ChartAttendcanceViewController.h */,
+				D6B8BA201B39472A00E9B28F /* ChartAttendcanceViewController.m */,
+				D6B8BA211B39472A00E9B28F /* ChartMacInProgressViewController.h */,
+				D6B8BA221B39472A00E9B28F /* ChartMacInProgressViewController.m */,
+				D6B8BA231B39472A00E9B28F /* PieLeaveViewController.h */,
+				D6B8BA241B39472A00E9B28F /* PieLeaveViewController.m */,
+			);
+			name = Charts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E6996401B18715D00BD5A73 /* ATOM Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6996641B18715D00BD5A73 /* Build configuration list for PBXNativeTarget "ATOM Mobile" */;
+			buildPhases = (
+				8E69963D1B18715D00BD5A73 /* Sources */,
+				8E69963E1B18715D00BD5A73 /* Frameworks */,
+				8E69963F1B18715D00BD5A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ATOM Mobile";
+			productName = "ATOM Mobile";
+			productReference = 8E6996411B18715D00BD5A73 /* ATOM Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E6996591B18715D00BD5A73 /* ATOM MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6996671B18715D00BD5A73 /* Build configuration list for PBXNativeTarget "ATOM MobileTests" */;
+			buildPhases = (
+				8E6996561B18715D00BD5A73 /* Sources */,
+				8E6996571B18715D00BD5A73 /* Frameworks */,
+				8E6996581B18715D00BD5A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E69965C1B18715D00BD5A73 /* PBXTargetDependency */,
+			);
+			name = "ATOM MobileTests";
+			productName = "ATOM MobileTests";
+			productReference = 8E69965A1B18715D00BD5A73 /* ATOM MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E6996391B18715D00BD5A73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Accenture;
+				TargetAttributes = {
+					8E6996401B18715D00BD5A73 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8E6996591B18715D00BD5A73 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8E6996401B18715D00BD5A73;
+					};
+				};
+			};
+			buildConfigurationList = 8E69963C1B18715D00BD5A73 /* Build configuration list for PBXProject "ATOM Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E6996381B18715D00BD5A73;
+			productRefGroup = 8E6996421B18715D00BD5A73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E6996401B18715D00BD5A73 /* ATOM Mobile */,
+				8E6996591B18715D00BD5A73 /* ATOM MobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E69963F1B18715D00BD5A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E05D0591B3051F0008744EF /* leave_page1.png in Resources */,
+				8E05D0291B2F151C008744EF /* menu.png in Resources */,
+				8E05D0221B2F151C008744EF /* global-filter.png in Resources */,
+				8E05D0261B2F151C008744EF /* issues-highlight.png in Resources */,
+				8E05D0231B2F151C008744EF /* go-btn.png in Resources */,
+				8E05D0551B304F69008744EF /* attendance_page2.png in Resources */,
+				8E05D0491B302E72008744EF /* atom-mobile-forgotpassword.jpg in Resources */,
+				8E05D01F1B2F151C008744EF /* approvals-highlight.png in Resources */,
+				8E05D02C1B2F151C008744EF /* reminder-default.png in Resources */,
+				8E05D0B21B33F566008744EF /* home-highlight.png in Resources */,
+				8E05D04E1B303F9F008744EF /* dashboard_page1.png in Resources */,
+				8E6996501B18715D00BD5A73 /* Main.storyboard in Resources */,
+				8E05D02A1B2F151C008744EF /* news-default.png in Resources */,
+				8E6996551B18715D00BD5A73 /* LaunchScreen.xib in Resources */,
+				8E05D0281B2F151C008744EF /* management-dashboard.png in Resources */,
+				8E05D01E1B2F151C008744EF /* approvals-default.png in Resources */,
+				8E05D02D1B2F151C008744EF /* reminder-highlight.png in Resources */,
+				8E05D0B11B33F566008744EF /* home-default.png in Resources */,
+				8E05D05A1B3051F0008744EF /* leave_page2.png in Resources */,
+				8E05D03C1B30224B008744EF /* atom-mobile-signin.jpg in Resources */,
+				8E05D03E1B302570008744EF /* profile.png in Resources */,
+				8E6996521B18715D00BD5A73 /* Images.xcassets in Resources */,
+				8E05D0201B2F151C008744EF /* attendance.png in Resources */,
+				8E05D0241B2F151C008744EF /* issue.png in Resources */,
+				8E05D0211B2F151C008744EF /* generate-btn.png in Resources */,
+				8E05D04F1B303F9F008744EF /* dashboard_page2.png in Resources */,
+				8E05D0541B304F69008744EF /* attendance_page1.png in Resources */,
+				8E05D0251B2F151C008744EF /* issues-default.png in Resources */,
+				8E05D0501B303F9F008744EF /* dashboard_page3.png in Resources */,
+				8E05D0271B2F151C008744EF /* leave.png in Resources */,
+				8E05D02B1B2F151C008744EF /* news-highlight.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6996581B18715D00BD5A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E69963D1B18715D00BD5A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E69964D1B18715D00BD5A73 /* ViewController.m in Sources */,
+				8E05D0441B302BF7008744EF /* AttendanceViewController.m in Sources */,
+				8E05D0411B30289D008744EF /* ManagementDashboardViewController.m in Sources */,
+				8E05D0B51B33F583008744EF /* HomeViewController.m in Sources */,
+				8E69964A1B18715D00BD5A73 /* AppDelegate.m in Sources */,
+				D6B8BA271B39472A00E9B28F /* PieLeaveViewController.m in Sources */,
+				8E05D03A1B300E8D008744EF /* NewsViewController.m in Sources */,
+				D6B8BA261B39472A00E9B28F /* ChartMacInProgressViewController.m in Sources */,
+				8E05D0471B302C3A008744EF /* LeaveViewController.m in Sources */,
+				8E05D0BE1B346457008744EF /* TeamLeaveViewController.m in Sources */,
+				8E05D0311B300E52008744EF /* IssueViewController.m in Sources */,
+				8E05D0AB1B32A9AE008744EF /* ProfileViewController.m in Sources */,
+				8E05D0371B300E7D008744EF /* ReminderViewController.m in Sources */,
+				8E6996471B18715D00BD5A73 /* main.m in Sources */,
+				D6B8BA251B39472A00E9B28F /* ChartAttendcanceViewController.m in Sources */,
+				8E05D05D1B3174C7008744EF /* ApprovalViewController.m in Sources */,
+				8E05D0BB1B34158D008744EF /* ShiftSummaryViewController.m in Sources */,
+				8E05D0B81B3410B5008744EF /* ShiftDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6996561B18715D00BD5A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6996611B18715D00BD5A73 /* ATOM_MobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E69965C1B18715D00BD5A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E6996401B18715D00BD5A73 /* ATOM Mobile */;
+			targetProxy = 8E69965B1B18715D00BD5A73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E69964E1B18715D00BD5A73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E69964F1B18715D00BD5A73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E6996531B18715D00BD5A73 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6996541B18715D00BD5A73 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E6996621B18715D00BD5A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E6996631B18715D00BD5A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E6996651B18715D00BD5A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ATOM",
+					Mobile,
+				);
+				INFOPLIST_FILE = "ATOM Mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E6996661B18715D00BD5A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ATOM",
+					Mobile,
+				);
+				INFOPLIST_FILE = "ATOM Mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E6996681B18715D00BD5A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ATOM MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATOM Mobile.app/ATOM Mobile";
+			};
+			name = Debug;
+		};
+		8E6996691B18715D00BD5A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ATOM MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATOM Mobile.app/ATOM Mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E69963C1B18715D00BD5A73 /* Build configuration list for PBXProject "ATOM Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6996621B18715D00BD5A73 /* Debug */,
+				8E6996631B18715D00BD5A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6996641B18715D00BD5A73 /* Build configuration list for PBXNativeTarget "ATOM Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6996651B18715D00BD5A73 /* Debug */,
+				8E6996661B18715D00BD5A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6996671B18715D00BD5A73 /* Build configuration list for PBXNativeTarget "ATOM MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6996681B18715D00BD5A73 /* Debug */,
+				8E6996691B18715D00BD5A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E6996391B18715D00BD5A73 /* Project object */;
+}
